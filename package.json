@@ -3,6 +3,14 @@
   "description": "",
   "version": "0.1.0",
   "devDependencies": {
-    "serverless-python-requirements": "^6.0.0"
+    "serverless-python-requirements": "^6.1.2"
+  },
+  "dependencies": {
+    "serverless": "^4.23.0"
+  },
+  "overrides": {
+    "serverless-python-requirements": {
+      "serverless": "$serverless"
+    }
   }
 }
